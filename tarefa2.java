@@ -10,6 +10,8 @@ public class tarefa2 {
         String escala = sc.nextLine().toUpperCase();
         System.out.println("Digite o valor:");
         double valor = sc.nextDouble();
+        
+        sc.close();
 
         switch(escala){
             case "C":
