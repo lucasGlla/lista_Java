@@ -11,6 +11,8 @@ public class tarefa1{
             System.out.println("Digite o segundo numero:");
             double y = sc.nextDouble();
             
+            sc.close();
+        
             switch(op){
                 case 1:
                 result = x + y;
