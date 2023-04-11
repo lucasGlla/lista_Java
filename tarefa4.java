@@ -7,6 +7,8 @@ public class tarefa4 {
         Scanner sc = new Scanner(System.in); 
         System.out.println("Digite um numéro: ");
         double valor = sc.nextDouble();
+        
+        sc.close();
 
         if(valor % 2 == 0){
             raizC = Math.cbrt(valor);
