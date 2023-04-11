@@ -13,6 +13,8 @@ public class tarefa3 {
         nome = nome.substring(0,1).toUpperCase() + nome.substring(1);
         sobrenome = nomeSeparado[1];
         sobrenome = sobrenome.substring(0,1).toUpperCase() + sobrenome.substring(1);
+        
+        sc.close();
 
         if(sobrenome.equals("Wayne")){
             System.out.println("Acesso liberado,sr." + sobrenome);
